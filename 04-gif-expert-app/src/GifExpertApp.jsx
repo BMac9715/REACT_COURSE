@@ -3,7 +3,7 @@ import { AddCategory, GifGrid } from './components';
 //import { GifGrid } from './components/GifGrid';
 
 export const GifExpertApp = () => {
-  const [categories, setCategories] = useState(['One Punch']);
+  const [categories, setCategories] = useState(['Demon Slayer']);
 
   const onAddCategory = (newCategory) => {
     
@@ -31,6 +31,11 @@ export const GifExpertApp = () => {
           )
           //categories.map(category => <GifGrid key={category} category={category} />)
         }
+
+        <footer>
+          <p>Developed by <strong>Bryan Macario</strong> guided by <strong>Fernando Herrera / Udemy Instructor</strong></p>
+          <p>March 2023</p>
+        </footer>
     </>
   )
 }
